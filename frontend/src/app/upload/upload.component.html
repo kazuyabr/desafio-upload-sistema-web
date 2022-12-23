@@ -1,0 +1,7 @@
+<div  *ngIf="isUploading" class="loader">
+  <mat-spinner ></mat-spinner>
+</div>
+<div class="content-upload">
+<input type="file" multiple (change)="onFileChange($event)" style="margin-right: 10px;"/>
+<button mat-raised-button color="primary" type="submit" (click)="uploadFiles()"  [disabled]="isUploading">Enviar arquivos</button>
+</div>

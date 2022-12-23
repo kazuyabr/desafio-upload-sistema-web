@@ -1,0 +1,15 @@
+.navbar{
+  background-color: #360756;
+  display: flex;
+}
+.navbar button{
+  color: #FFFFFFFF;
+}
+
+.navbar button:hover{
+  background-color: #631399;
+}
+
+hr{
+  color: #FFFFFFFF;
+}
